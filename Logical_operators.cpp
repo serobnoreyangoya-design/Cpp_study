@@ -35,7 +35,7 @@ int main()
  e = 15;
  f = 60;
 
- cout << " d > e && d > f " << ((d>e) && (d>f)) << endl; 
- cout << "e==d || f==e  " << ((e==d) || (f==e)) << endl;
+ cout << " d > e && d > f " << ((d>e) && (d>f)) << endl; //false
+ cout << "e==d || f==e  " << ((e==d) || (f==e)) << endl;//false 
 
  }
