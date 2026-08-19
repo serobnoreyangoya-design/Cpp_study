@@ -1,8 +1,15 @@
 #include <iostream>
 using namespace std;
+
+const int pen = 10;
+const int pencil = 20;
+const int eraser = 30;
+const int circle = 40;
+
 int main()
 {
- int day;
+/* 
+     int day;
 
  cin >> day;
 
@@ -40,4 +47,37 @@ case 7:
 default:
     cout << "Unknown";
 }
+
+*/
+int tool = pencil;
+
+switch (tool)
+{
+     case pen:
+     cout <<   "pen is active " << endl;
+     break;
+
+      case pencil:
+     cout <<   "pencil is active " << endl;
+     break;
+
+      case circle:
+     cout <<   "circle is active " << endl;
+     break;
+
+      case eraser:
+     cout <<   "eraser is active " << endl;
+     break;
+
+default:
+ cout << "there isn't such as that tool" << endl;
+break;
+}
+
+
+
+
+
+
+
 }
